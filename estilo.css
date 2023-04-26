@@ -1,0 +1,150 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: dimgray;
+}
+
+textarea {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: medium;
+    resize: none;
+}
+
+.contenedor {
+    padding: 20px;
+}
+
+.btnCodificar {
+    width: 200px;
+    height: 50px;
+    size: 20%;
+    border-radius: 15px;
+    padding: auto;
+    border: 0px;
+    box-shadow: 5px;
+    color: aliceblue;
+    background-color: rgb(2, 44, 123);
+    margin-right: 20px;
+}
+
+.btnCodificar:hover {
+    color: rgb(198, 228, 255);
+    background-color: rgb(2, 68, 189);
+}
+
+.btnCodificar:active {
+    color: burlywood;
+    background-color: rgb(0, 28, 80);
+}
+
+.btnDecodificar {
+    width: 200px;
+    height: 50px;
+    size: 20%;
+    border-radius: 15px;
+    padding: auto;
+    border: 0px;
+    box-shadow: 5px;
+    color: rgb(185, 126, 240);
+    background-color: aliceblue;
+    margin-right: 20px;
+}
+
+.btnDecodificar:hover {
+    color: rgb(105, 34, 172);
+    background-color: rgb(172, 216, 255);
+}
+
+.btnDeCodificar:active {
+    color: rgb(216, 178, 26);
+    background-color: rgb(16, 144, 255);
+}
+
+.btnCopiar {
+    display: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0px;
+}
+
+.btnCopiar:hover {
+    background-color: darkgrey;
+}
+
+.btnCopiar:active {
+    color: darkorange;
+    background-color: #d4d4d4;
+}
+
+.entradaTexto {
+    min-height: 40vh;
+    width: 50vw;
+    margin-right: 10px;
+}
+
+.salidaTexto {
+    min-height: 40vh;
+    width: 50vw;
+    background-color: rgba(149, 0, 255, 25%);
+    margin-left: 10px;
+    color: white;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+}
+
+.botonera {
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    top: 80%;
+}
+
+.pieDePagina {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    bottom: 0%;
+    right: 0%;
+}
+
+.textoInferior {
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 50px;
+}
+
+.alertaVacio
+{
+    color: white;
+display: none;
+
+}
+
+.alertaCopiado{
+    color: white;
+display: none;
+
+
+}

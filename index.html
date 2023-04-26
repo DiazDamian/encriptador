@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="estilo.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Encriptador de Texto</h1>
+    </div>
+    <div class="contenedor">
+        <div class="contenido">
+            <textarea class="entradaTexto" name="TextoEntrante" id="mensajeEntrante" cols="30" rows="10"></textarea>
+            <textarea class="salidaTexto" name="TextoSaliente" id="mensajeSaliente" cols="30" rows="10"></textarea>
+        </div>
+        <div class="botonera">
+            <button onclick="codificar()" class="btnCodificar">Codificar</button>
+            <button onclick="decodificar()" class="btnDecodificar">Decodificar</button>
+            <button onclick="copiarTexto()" class="btnCopiar" id="botonCopiar">Copiar</button>
+        </div>
+        
+            <p class="alertaVacio" id="alertaVacio">Mensaje vacio!! por favor ingrese un mensaje</p>
+            <p class="alertaCopiado" id="alertaCopiado">Mensaje copiado!!</p>
+        
+        
+    </div>
+    <div class="pieDePagina">
+        <p class="textoInferior">© 2023 - Diaz Damian</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+
+</html>

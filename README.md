@@ -1,2 +1,0 @@
-# encriptador
-Encriptador de Texto
